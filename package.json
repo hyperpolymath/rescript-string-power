@@ -1,0 +1,36 @@
+{
+  "name": "rescript-string-power",
+  "version": "0.1.0",
+  "description": "Tagged template utilities for ReScript - SQL, CSS, i18n, and more",
+  "keywords": [
+    "rescript",
+    "tagged-templates",
+    "sql",
+    "css",
+    "graphql",
+    "i18n",
+    "string-interpolation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperpolymath/rescript-string-power"
+  },
+  "license": "LicenseRef-PMPL-1.0-or-later",
+  "author": "Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>",
+  "type": "module",
+  "main": "src/StringPower.res.mjs",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean",
+    "dev": "rescript -w",
+    "test": "node --test tests/"
+  },
+  "peerDependencies": {
+    "rescript": ">=11.0.0"
+  },
+  "devDependencies": {
+    "@rescript/core": "^1.0.0",
+    "@rescript/react": "^0.12.0",
+    "rescript": "^11.1.0"
+  }
+}
