@@ -13,3 +13,13 @@ docs/*.html
 # Rust/Cargo
 tools/string-union-gen/target/
 Cargo.lock
+target/
+_build/
+deps/
+.elixir_ls/
+.cache/
+*.log
+*.tmp
+Thumbs.db
+build/
+dist/
